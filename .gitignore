@@ -1,3 +1,4 @@
+
 # Bridgetown
 output
 .bridgetown-cache
@@ -15,7 +16,7 @@ vendor
 .node_repl_history
 
 # Ignore bundler config.
-/.bundle
+
 
 # Ignore Byebug command history file.
 .byebug_history
