@@ -1,7 +1,8 @@
 const { merge } = require("webpack-merge");
 
 var config = require("./config/webpack.defaults.js");
-
+const path = require("path");
+const CopyPlugin = require("copy-webpack-plugin");
 // Add any overrides to the default webpack config here:
 //
 // Eg:
@@ -24,4 +25,19 @@ var config = require("./config/webpack.defaults.js");
 
 ////////////////////////////////////////////////////////
 
-module.exports = config;
+module.exports = merge(config, {
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        // Copy Shoelace assets to dist/shoelace
+        {
+          from: path.resolve(
+            __dirname,
+            "./node_modules/@shoelace-style/shoelace/dist/assets"
+          ),
+          to: path.resolve(__dirname, "./src/shoelace/assets"),
+        },
+      ],
+    }),
+  ],
+});

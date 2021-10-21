@@ -6,36 +6,33 @@
 // when an update is applied hence we strongly recommend adding overrides to
 // `webpack.config.js` instead of editing this file.
 //
-// Shipped with Bridgetown v0.21.4
+// Shipped with Bridgetown v1.0.0.alpha4
 
 const path = require("path");
-const rootDir = path.resolve(__dirname, "..");
-const CopyPlugin = require("copy-webpack-plugin");
+const rootDir = path.resolve(__dirname, "..")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { WebpackManifestPlugin } = require("webpack-manifest-plugin");
 
 // Input and output
 
-const entry = {
-  main: path.resolve(rootDir, "frontend", "javascript", "index.js"),
-};
+const entry = { main: path.resolve(rootDir, "frontend", "javascript", "index.js") }
 const output = {
   path: path.resolve(rootDir, "output", "_bridgetown", "static", "js"),
   filename: "[name].[contenthash].js",
   publicPath: "",
-};
+}
 
 // Rules and Loaders
 
 const jsRule = {
-  test: /\.(js|jsx)/,
+  test: /\.(js|jsx)$/,
   use: {
     loader: "esbuild-loader",
     options: {
-      target: "es2016",
+      target: 'es2016'
     },
   },
-};
+}
 
 const cssRules = {
   test: /\.(s[ac]|c)ss$/,
@@ -44,16 +41,16 @@ const cssRules = {
     {
       loader: "css-loader",
       options: {
-        url: (url) => !url.startsWith("/"),
-        importLoaders: 1,
-      },
-    },
+        url: url => !url.startsWith('/'),
+        importLoaders: 1
+      }
+    }
   ],
-  mode: "postcss",
+  mode: 'postcss',
 
   postcss: () => {
-    cssRules.use.push("postcss-loader");
-    return { test: cssRules.test, use: cssRules.use };
+    cssRules.use.push("postcss-loader")
+    return { test: cssRules.test, use: cssRules.use }
   },
 
   sass: () => {
@@ -63,13 +60,15 @@ const cssRules = {
         implementation: require("sass"),
         sassOptions: {
           fiber: false,
-          includePaths: [path.resolve(rootDir, "src/_components")],
+          includePaths: [
+            path.resolve(rootDir, "src/_components")
+          ],
         },
       },
-    });
-    return { test: cssRules.test, use: cssRules.use };
-  },
-};
+    })
+    return { test: cssRules.test, use: cssRules.use }
+  }
+}
 
 const fontsRule = {
   test: /\.woff2?$|\.ttf$|\.eot$/,
@@ -79,7 +78,7 @@ const fontsRule = {
     outputPath: "../fonts",
     publicPath: "../fonts",
   },
-};
+}
 
 const imagesRule = {
   test: /\.png?$|\.gif$|\.jpg$|\.svg$/,
@@ -89,7 +88,7 @@ const imagesRule = {
     outputPath: "../",
     publicPath: "../",
   },
-};
+}
 
 // Default configuration object
 
@@ -107,27 +106,15 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"],
     modules: [
-      path.resolve(rootDir, "frontend", "javascript"),
-      path.resolve(rootDir, "frontend", "styles"),
-      path.resolve(rootDir, "node_modules"),
+      path.resolve(rootDir, 'frontend', 'javascript'),
+      path.resolve(rootDir, 'frontend', 'styles'),
+      path.resolve(rootDir, 'node_modules')
     ],
     alias: {
-      bridgetownComponents: path.resolve(rootDir, "src", "_components"),
-    },
+      bridgetownComponents: path.resolve(rootDir, "src", "_components")
+    }
   },
   plugins: [
-    new CopyPlugin({
-      patterns: [
-        // Copy Shoelace assets to dist/shoelace
-        {
-          from: path.resolve(
-            __dirname,
-            "../node_modules/@shoelace-style/shoelace/dist/assets"
-          ),
-          to: path.resolve(__dirname, "../src/shoelace/assets"),
-        },
-      ],
-    }),
     new MiniCssExtractPlugin({
       filename: "../css/[name].[contenthash].css",
     }),
@@ -136,6 +123,8 @@ module.exports = {
     }),
   ],
   module: {
-    rules: [jsRule, cssRules[cssRules.mode](), fontsRule, imagesRule],
-  },
-};
+    rules: [
+      jsRule, cssRules[cssRules.mode](), fontsRule, imagesRule
+    ]
+  }
+}
