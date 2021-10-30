@@ -1,0 +1,74 @@
+<section>
+  {% if paginator.total_pages > 1 %}
+    <ul class="pagination-ul">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">
+          <li>
+            <span>
+              Newer 👈
+            </span>
+          </li>
+        </a>
+      {% else %}
+        <li class="lowlighted">
+          <span>
+            Newer 👈
+          </span>
+        </li>
+      {% endif %}
+      {% for page_number in (1..paginator.total_pages) % }
+      { % assign post_array = "/posts/ /posts/index.html" | split: ' ' %}
+
+        {% if page_number == 1 and post_array contains resource.relative_url %}
+
+          <li class="lowlighted depressed">
+            <span>
+              1
+            </span>
+          </li>
+        {% elsif resource.data.pagination_info.curr_page == page_number %}
+
+          <li class="lowlighted depressed">
+            <span>
+              {{ page_number }}
+            </span>
+          </li>
+
+        {% else %}
+          {% if page_number == 1 %}
+            <a href="/{{ resource.data.slug }}/">
+              <li>
+                <span>
+                  1
+                </span>
+              </li>
+            </a>
+          {% else %}
+            <a href="/{{ resource.data.slug }}/page/{{ page_number }}/">
+              <li>
+                <span>
+                  {{ page_number }}
+                </span>
+              </li>
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">
+          <li>
+            <span>
+              👉 Older
+            </span>
+          </li>
+        </a>
+      {% else %}
+        <li class="lowlighted">
+          <span>
+            👉 Older
+          </span>
+        </li>
+      {% endif %}
+    </ul>
+  {% endif %}
+</section>
