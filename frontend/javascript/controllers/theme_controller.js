@@ -17,14 +17,14 @@ export default class extends Controller {
     if (currentTheme == "dark") {
       let theme = "dark";
       this.class.classList.toggle("sl-theme-dark");
-      localStorage.setItem("theme", theme);
+      // localStorage.setItem("theme", theme);
       // console.log(localStorage.getItem("theme"));
     }
   }
 
   switch() {
     const currentTheme = localStorage.getItem("theme");
-    console.log(currentTheme);
+    // console.log(currentTheme);
     if (currentTheme == "dark") {
       let theme = "light";
       this.class.classList.toggle("sl-theme-dark");
@@ -39,7 +39,7 @@ export default class extends Controller {
   }
 
   get class() {
-    console.log(this.switchTarget);
+    // console.log(this.switchTarget);
     return this.switchTarget;
   }
 }

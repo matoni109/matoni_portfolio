@@ -45,6 +45,10 @@
   --h-keyword-control: var(--h-keyword);
 }
 
+.theme-toggle sl-button {
+  position: absolute;
+}
+
 p,
 blockquote,
 p,
