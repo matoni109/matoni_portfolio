@@ -8,20 +8,16 @@ pagination:
 
 <h3>{{ resource.data.subtitle }}</h3>
 
-
 {{ content }}
 
 <post-prev-next>
   {% if resource.next%}
-    <a href="{{ resource.next.relative_url }}#bottom">
-      👉 <strong>Next:</strong> {{ resource.next.data.title }}
-    </a>
+  <a href="{{ resource.next.relative_url }}#bottom">
+    👉 <strong>Next:</strong> {{ resource.next.data.title }}
+  </a>
+  {% endif %} {% if resource.previous %}
+  <a href="{{ resource.previous.relative_url }}#bottom">
+    👈 <strong>Previous:</strong> {{ resource.previous.data.title }}
+  </a>
   {% endif %}
-
-  {% if resource.previous %}
-    <a href="{{resource.previous.relative_url }}#bottom">
-      👈 <strong>Previous:</strong> {{ resource.previous.data.title }}
-    </a>
-  {% endif %}
-
-</post-post-prev-next>
+</post-prev-next>
