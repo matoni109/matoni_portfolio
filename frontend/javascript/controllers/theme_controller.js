@@ -18,7 +18,7 @@ export default class extends Controller {
       let theme = "dark";
       this.class.classList.toggle("sl-theme-dark");
       localStorage.setItem("theme", theme);
-      console.log(localStorage.getItem("theme"));
+      // console.log(localStorage.getItem("theme"));
     }
   }
 
@@ -29,12 +29,12 @@ export default class extends Controller {
       let theme = "light";
       this.class.classList.toggle("sl-theme-dark");
       localStorage.setItem("theme", theme);
-      console.log(localStorage.getItem("theme"));
+      // console.log(localStorage.getItem("theme"));
     } else {
       let theme = "dark";
       this.class.classList.toggle("sl-theme-dark");
       localStorage.setItem("theme", theme);
-      console.log(localStorage.getItem("theme"));
+      // console.log(localStorage.getItem("theme"));
     }
   }
 
