@@ -15,12 +15,12 @@ paginate:
   {% endfor %}
 </ul>
 
-<script>
+<!-- <script>
   const checkbox = document.querySelector('sl-checkbox');
   checkbox.addEventListener('sl-change', event => {
     console.log(event.target.checked ? 'checked' : 'not checked');
   });
-</script>
+</script> -->
 
 {% render "page_selector", paginator: paginator, resource: resource %}
 
