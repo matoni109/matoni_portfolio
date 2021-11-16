@@ -333,7 +333,7 @@ body.sl-theme-dark p {
 }
 
 .sl-theme-dark .highlight pre {
-  background-color: #272822 important!;
+  background-color: #272822;
 }
 .sl-theme-dark .highlight .hll {
   background-color: #272822;
