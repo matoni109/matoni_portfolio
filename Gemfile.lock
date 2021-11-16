@@ -114,11 +114,11 @@ GEM
     zeitwerk (2.5.1)
 
 PLATFORMS
-  x86_64-linux
+  arm64-darwin-21
 
 DEPENDENCIES
-  bridgetown (~> 1.0.0.alpha6)
+  bridgetown (~> 1.0.0.alpha9)
   puma (~> 5.2)
 
 BUNDLED WITH
-   2.2.29
+   2.2.22
