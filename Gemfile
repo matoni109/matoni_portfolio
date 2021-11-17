@@ -1,6 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
+ruby '~> 3.0'
 # Hello! This is where you manage which Bridgetown version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Bridgetown with `bundle exec`, like so:
@@ -18,4 +18,4 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # gem "bridgetown", "~> 0.21.4"
 gem 'bridgetown', '~> 1.0.0.alpha9'
-gem "puma", "~> 5.2"
+gem 'puma', '~> 5.2'
