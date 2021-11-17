@@ -18,7 +18,7 @@ When I am not coding, I love cycling 🚴, traveling 🌏 and good coffee ☕.
 
 I am currently working in the B2B Sales sector. I am also open to discuss opportunities as a Junior Software Developer, I'm most interested in working in a team environment, striving together to solve problems and learn along the way.
 
-**How to reach me :mailbox:**
+**How to reach me 📬**
 
 I will be very happy to catch up with you around a beer 🍺 or a coffee ☕
 
