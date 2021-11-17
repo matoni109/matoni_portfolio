@@ -121,5 +121,8 @@ DEPENDENCIES
   bridgetown (~> 1.0.0.alpha9)
   puma (~> 5.2)
 
+RUBY VERSION
+   ruby 3.0.2p107
+
 BUNDLED WITH
    2.2.22

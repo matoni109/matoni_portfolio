@@ -41,7 +41,7 @@ So in reference to above we could re-present the above **SLAB** in the below sty
 
 > *Semantic Line What Now ..?*
 >
-> After reaching for Doctor Google Semantic Line Breaks ( S.L.B)'s can be summarised as giving form and feeling to an otherwise **SLAB** of text 'breaking' up the otherwise endless stream of words into topical thoughts and a structure, <br> in the instance where white space allows a natural resting point for the text to be absorbed by the reader. <br><br>The overall message conveyed by the text can not be changed through the allocation of a S.L.B though in the process at it's essence.
+> After reaching for Doctor Google, Semantic Line Breaks ( S.L.B)'s can be summarised as giving form and feeling to an otherwise **SLAB** of text 'breaking' up the otherwise endless stream of words into topical thoughts and a structure, <br> in the instance where white space allows a natural resting point for the text to be absorbed by the reader. <br><br>The overall message conveyed by the text can not be changed through the allocation of a S.L.B though in the process at it's essence.
 
 
 
