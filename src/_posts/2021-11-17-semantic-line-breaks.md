@@ -53,11 +53,9 @@ We S.LB's are incorporated into most markup languages, this post is written [Mar
 
 
 
-```html
+```markdown
 
-> *Semantic Line What Now ..?*<br>
-> After reaching for Doctor Google Semantic Line Breaks ( S.L.B)'s can be summarised as giving form and feeling to an
-> otherwise **SLAB** of text 'breaking' up the otherwise endless stream of words into topical
+> *Semantic Line What Now ..?*<br>After reaching for Doctor Google Semantic Line Breaks ( S.L.B)'s can be summarised as giving form and feeling to an otherwise **SLAB** of text 'breaking' up the otherwise endless stream of words into topical
 
 ```
 
