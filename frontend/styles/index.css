@@ -106,7 +106,7 @@ main {
 .highlighter-rouge {
   border-radius: 0.25rem;
   background-color: var(--bg-highlight);
-  font-size: 0.9em;
+  font-size: 0.9rem;
   padding: 0.1em 0.3em 0.2em;
 }
 
@@ -335,7 +335,7 @@ body.sl-theme-dark p {
 .sl-theme-dark .highlighter-rouge {
   border-radius: 0.25rem;
   background-color: var(--h-foreground);
-  font-size: 0.9em;
+  font-size: 0.9rem;
   padding: 0.1em 0.3em 0.2em;
 }
 

@@ -115,6 +115,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   bridgetown (~> 1.0.0.alpha9)
