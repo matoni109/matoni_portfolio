@@ -332,6 +332,13 @@ body.sl-theme-dark p {
   color: #eee;
 }
 
+.sl-theme-dark .highlighter-rouge {
+  border-radius: 0.25rem;
+  background-color: var(--h-foreground);
+  font-size: 0.9em;
+  padding: 0.1em 0.3em 0.2em;
+}
+
 .sl-theme-dark .highlight pre {
   background-color: #272822;
 }
