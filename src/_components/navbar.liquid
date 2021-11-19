@@ -1,13 +1,27 @@
 <nav>
   <ul class="navbar-menu">
     <li class="navbar-menu-item">
-      <a href="/">Home</a>
+      {% if resource.data.slug == "index" %}
+      <a class="active" href="/">Home</a>
+      {% else %}
+      <a class="" href="/">Home</a>
+      {% endif %}
     </li>
+
     <li class="navbar-menu-item">
-      <a href="/about">About</a>
+      {% if resource.data.slug == "about" %}
+      <a class="active" href="/about">About</a>
+      {% else %}
+      <a class="" href="/about">About</a>
+      {% endif %}
     </li>
+
     <li class="navbar-menu-item">
-      <a class="select-none active" href="/posts">Posts</a>
+      {% if resource.data.slug == "posts" %}
+      <a class="active" href="/posts">Posts</a>
+      {% else %}
+      <a class="" href="/posts">Posts</a>
+      {% endif %}
     </li>
   </ul>
   {% render "theme_toggle" %}
