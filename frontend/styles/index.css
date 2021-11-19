@@ -51,11 +51,72 @@
   right: 0;
   top: 0;
   padding: 0.3rem;
+  cursor: pointer;
 }
 
 .highlight pre {
   /* white-space: pre-wrap; */
   overflow-x: auto;
+}
+
+/* dark mode button  */
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.15s ease;
+}
+.slide-enter-from {
+  transform: translateY(-100%);
+}
+.slide-enter-to,
+.slide-leave-from {
+  transform: translateY(0);
+}
+.slide-leave-to {
+  transform: translateY(100%);
+}
+
+/* dark mode button end  */
+
+/* nav bar menu  */
+
+.navbar-menu li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar-menu a:visited {
+  color: var(--body-color);
+}
+
+.navbar-menu {
+  list-style-type: none;
+  place-items: center;
+  height: 2rem;
+  line-height: 1.25rem;
+  margin-left: auto;
+}
+
+.navbar-menu-item {
+  margin-top: -0.125rem;
+}
+.navbar-menu-item > a {
+  border-color: transparent;
+  text-decoration: none;
+  opacity: 0.8;
+  padding-top: 0.25rem;
+  transition: opacity 80ms ease, border-color 80ms ease;
+}
+
+.navbar-menu-item > a:hover,
+.navbar-menu-item > a:active,
+.navbar-menu-item > a.active {
+  border-color: var(--fc-primary) !important;
+  border-bottom: 2px solid;
+  opacity: 1;
+}
+.navbar-actions {
+  grid-gap: 0.5rem;
+  gap: 0.5rem;
 }
 
 p,
@@ -334,6 +395,10 @@ body.sl-theme-dark a {
 }
 
 body.sl-theme-dark p {
+  color: #eee;
+}
+
+.sl-theme-dark .navbar-menu a:visited {
   color: #eee;
 }
 
