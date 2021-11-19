@@ -88,6 +88,10 @@
   color: var(--body-color);
 }
 
+.navbar-menu a {
+  color: var(--body-color);
+}
+
 .navbar-menu {
   list-style-type: none;
   place-items: center;
@@ -407,6 +411,10 @@ body.sl-theme-dark p {
   background-color: var(--h-foreground);
   font-size: 0.9rem;
   padding: 0.1em 0.3em 0.2em;
+}
+
+.sl-theme-dark .navbar-menu a {
+  color: #eee;
 }
 
 .sl-theme-dark .highlight pre {
