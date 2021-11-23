@@ -4,6 +4,7 @@ title:  "Semantic Line Breaks"
 date:     2021-11-17 10:10:49 +1100
 categories: jea
 # https://stackedit.io/app#
+# https://www.hawkins.io/article/using-the-ruby-logger/
 ---
 
 This is the first lightning talk topic given out in my Junior Education Academy ( J.E.A ) journey at [DiscoLabs](http://discolabs.com). I thought it might be a good idea to document these:
