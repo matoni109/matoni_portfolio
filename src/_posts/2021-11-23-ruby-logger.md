@@ -99,11 +99,12 @@ Ok, it's that time of the blog post where you put the code block into your iterm
 End result should be a lovely formated log just like below 😁 🥵
 
 ```ruby
-ITS-HERE--> date=[2021-11-23  21:44:37] severity=DEBUG pid=#139541 message='I'm a debug log'
-ITS-HERE--> date=[2021-11-23  21:44:37] severity=INFO pid=#139541 message='I'm an info log'
-ITS-HERE--> date=[2021-11-23  21:44:37] severity=WARN pid=#139541 message='I'm a warn log'
-ITS-HERE--> date=[2021-11-23  21:44:37] severity=ERROR pid=#139541 message='I'm an error log: error message'
-ITS-HERE--> date=[2021-11-23  21:44:37] severity=FATAL pid=#139541 message='I'm a fatal log'
+# Logfile created on 2021-11-23 21:59:40 +1100 by logger.rb/v1.4.3
+ITS-HERE--> date=[2021-11-23 21:59:40] severity=DEBUG pid=145879 message='I'm a debug log'
+ITS-HERE--> date=[2021-11-23 21:59:40] severity=INFO  pid=145879 message='I'm an info log'
+ITS-HERE--> date=[2021-11-23 21:59:40] severity=WARN  pid=145879 message='I'm a warn log'
+ITS-HERE--> date=[2021-11-23 21:59:40] severity=ERROR pid=145879 message='I'm an error log: error message'
+ITS-HERE--> date=[2021-11-23 21:59:42] severity=FATAL pid=145879 message='I'm a fatal log'
 ```
 
 Copy below and then check in your code editor for the `'i_like_to_log_it.log'` log file.
@@ -120,7 +121,7 @@ Copy below and then check in your code editor for the `'i_like_to_log_it.log'` l
 
   logger.formatter  =  proc  do |severity, datetime, progname, msg|
 	date_format = datetime.strftime('%Y-%m-%d %H:%M:%S')
-	"#{progname} date=[#{date_format}] severity=#{severity.ljust(5)} pid=##{Process.pid} message='#{msg}'\n"
+	"#{progname} date=[#{date_format}] severity=#{severity.ljust(5)} pid=#{Process.pid} message='#{msg}'\n"
  end
 
 ### here comes the logs..
