@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Ruby Logger"
+date:     2021-11-23 21:10:49 +1100
+categories: jea
+# https://stackedit.io/app#
+# https://www.hawkins.io/article/using-the-ruby-logger/
+---
 ### Ruby Logger
 
 Well  like most languages Ruby has an inbuilt `logger` Class to do just that. log, and in my case this comes in handy for `logging` the trail of destruction my Ruby code imparts in the `irb` compiler.
