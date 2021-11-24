@@ -114,11 +114,15 @@ GEM
     zeitwerk (2.5.1)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
-  bridgetown (~> 1.0.0.alpha6)
+  bridgetown (~> 1.0.0.alpha9)
   puma (~> 5.2)
 
+RUBY VERSION
+   ruby 3.0.2p107
+
 BUNDLED WITH
-   2.2.29
+   2.2.22

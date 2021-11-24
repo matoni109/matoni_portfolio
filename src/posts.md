@@ -15,14 +15,14 @@ paginate:
   {% endfor %}
 </ul>
 
-<script>
+<!-- <script>
   const checkbox = document.querySelector('sl-checkbox');
   checkbox.addEventListener('sl-change', event => {
     console.log(event.target.checked ? 'checked' : 'not checked');
   });
-</script>
+</script> -->
 
 {% render "page_selector", paginator: paginator, resource: resource %}
 
 
-If you have a lot of posts, you may want to consider adding [pagination](https://www.bridgetownrb.com/docs/content/pagination)!
+<!-- If you have a lot of posts, you may want to consider adding [pagination](https://www.bridgetownrb.com/docs/content/pagination)! -->

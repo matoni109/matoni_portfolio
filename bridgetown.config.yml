@@ -26,4 +26,4 @@ content_engine: resource
 # timezone: America/Los_Angeles
 pagination:
   enabled: true
-  per_page: 2
+  per_page: 5

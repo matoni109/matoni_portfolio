@@ -1,11 +1,10 @@
 <h1>I'm a Test component..</h1>
 <ul>
   {% for post in paginator %}
-  <li>
-    <a href="{{ post.relative_url }}"
-      >{{ post.title }} >
-      <p>{{ post.date | date: "%Y-%m-%d" }}</p></a
-    >
-  </li>
+    <li>
+      <a href="{{ post.relative_url }}">{{ post.title }} >
+        <p>{{ post.date | date: "%Y-%m-%d" }}</p>
+      </a>
+    </li>
   {% endfor %}
 </ul>
