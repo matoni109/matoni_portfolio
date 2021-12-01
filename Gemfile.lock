@@ -12,13 +12,13 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     amazing_print (1.4.0)
-    bridgetown (1.0.0.alpha9)
-      bridgetown-builder (= 1.0.0.alpha9)
-      bridgetown-core (= 1.0.0.alpha9)
-      bridgetown-paginate (= 1.0.0.alpha9)
-    bridgetown-builder (1.0.0.alpha9)
-      bridgetown-core (= 1.0.0.alpha9)
-    bridgetown-core (1.0.0.alpha9)
+    bridgetown (1.0.0.alpha11)
+      bridgetown-builder (= 1.0.0.alpha11)
+      bridgetown-core (= 1.0.0.alpha11)
+      bridgetown-paginate (= 1.0.0.alpha11)
+    bridgetown-builder (1.0.0.alpha11)
+      bridgetown-core (= 1.0.0.alpha11)
+    bridgetown-core (1.0.0.alpha11)
       activemodel (~> 6.0)
       activesupport (~> 6.0)
       addressable (~> 2.4)
@@ -42,8 +42,9 @@ GEM
       thor (~> 1.1)
       tilt (~> 2.0)
       webrick (~> 1.7)
-    bridgetown-paginate (1.0.0.alpha9)
-      bridgetown-core (= 1.0.0.alpha9)
+      zeitwerk (~> 2.5)
+    bridgetown-paginate (1.0.0.alpha11)
+      bridgetown-core (= 1.0.0.alpha11)
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
     erubi (1.10.0)
@@ -118,7 +119,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bridgetown (~> 1.0.0.alpha9)
+  bridgetown (~> 1.0.0.alpha11)
   puma (~> 5.2)
 
 RUBY VERSION

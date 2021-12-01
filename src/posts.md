@@ -10,7 +10,8 @@ paginate:
   {% for post in paginator.resources  %}
     <li>
       <a href="{{ post.relative_url }}">{{ post.title }}</a>
-      <p>   {{ post.date | date: "%Y-%m-%d" }} </p>
+      <!-- <p>   {{ post.date | date: "%Y-%m-%d" }} </p> -->
+     <p> <sl-format-date date="{{post.date}}" month="long" day="numeric" year="numeric"></sl-format-date></p>
     </li>
   {% endfor %}
 </ul>
