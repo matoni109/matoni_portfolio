@@ -6,6 +6,7 @@ categories: jea
 # https://stackedit.io/app#
 # https://www.hawkins.io/article/using-the-ruby-logger/
 ---
+<sl-format-date date="{{page.date}}" month="long" day="numeric" year="numeric"></sl-format-date>
 
 This is the first lightning talk topic given out in my Junior Education Academy ( J.E.A ) journey at [DiscoLabs](http://discolabs.com). I thought it might be a good idea to document these:
 
