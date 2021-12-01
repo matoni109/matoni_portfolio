@@ -23,7 +23,7 @@ content_engine: resource
 # Other options you might want to investigate:
 #
 # base_path: "/" # the subpath of your site, e.g. /blog
-# timezone: America/Los_Angeles
+timezone: Australia/Melbourne
 pagination:
   enabled: true
   per_page: 5

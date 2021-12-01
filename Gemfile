@@ -15,7 +15,10 @@ ruby '~> 3.0'
 #   bundle add some-new-plugin -g bridgetown_plugins
 #
 # Happy Bridgetowning!
+# bin/bridgetown start
+# bridgetown webpack update
+# bundle update bridgetown
 
 # gem "bridgetown", "~> 0.21.4"
-gem 'bridgetown', '~> 1.0.0.alpha9'
+gem 'bridgetown', '~> 1.0.0.alpha11'
 gem 'puma', '~> 5.2'
