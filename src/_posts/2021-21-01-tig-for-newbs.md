@@ -102,6 +102,7 @@ Hopefully that has given you an insight into `tig` and how this valuable tool ca
 
 
 ***references:***
+-  [tig cheatsheet](https://devhints.io/tig)
 -  [atlassian dev blog](https://www.atlassian.com/blog/git/git-tig)
 -  [tig manual](https://jonas.github.io/tig/)
 -  [open source blog](https://opensource.com/article/19/6/what-tig)
