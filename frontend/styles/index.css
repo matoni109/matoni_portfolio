@@ -44,7 +44,13 @@
   --h-selector: var(--h-keyword);
   --h-keyword-control: var(--h-keyword);
 }
-
+.fit-picture {
+  width: 90vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* https://www.sitepoint.com/css-viewport-units-quick-start/ */
 .theme-toggle sl-button {
   position: fixed;
   z-index: 1000;
@@ -95,7 +101,7 @@
 .navbar-menu {
   list-style-type: none;
   place-items: center;
-  height: 2rem;
+  height: 1.3rem;
   line-height: 1.25rem;
   margin-left: auto;
 }
