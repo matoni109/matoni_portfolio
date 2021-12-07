@@ -48,6 +48,11 @@
   resolved "https://registry.yarnpkg.com/@hotwired/turbo/-/turbo-7.0.1.tgz#2a8c6ab2f24914d1d47f3a7a7779e2881e8c61a0"
   integrity sha512-awqraytYXbHV2NT0WAOnDDDGJeHHnFtnztdXvRuIqgsStUtPKM8B9H7ISm77SwbHemEjxEOB8Ku4RfNbEEXsPQ==
 
+"@lit-labs/react@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@lit-labs/react/-/react-1.0.1.tgz#35f4a8fe12501f79e3973b408e67aa75dcd45ff4"
+  integrity sha512-ShvoOB34Oj0ZkSnlWdGIWzSiEBP1MUY81nC3nAsNoWqbYMS2F/EskGzwSQj7mCKNznUCbmpB272AvSMwejm3Nw==
+
 "@lit/reactive-element@^1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@lit/reactive-element/-/reactive-element-1.0.1.tgz#853cacd4d78d79059f33f66f8e7b0e5c34bee294"
@@ -84,15 +89,16 @@
   resolved "https://registry.yarnpkg.com/@shoelace-style/animations/-/animations-1.1.0.tgz#17539abafd6dcbf2a79e089e1593175e9f7835b5"
   integrity sha512-Be+cahtZyI2dPKRm8EZSx3YJQ+jLvEcn3xzRP7tM4tqBnvd/eW/64Xh0iOf0t2w5P8iJKfdBbpVNE9naCaOf2g==
 
-"@shoelace-style/shoelace@^2.0.0-beta.50":
-  version "2.0.0-beta.57"
-  resolved "https://registry.yarnpkg.com/@shoelace-style/shoelace/-/shoelace-2.0.0-beta.57.tgz#06a7ccdd8e942b530d76357627080c460babc8a1"
-  integrity sha512-W2rjohaaP10zMe30CO74DJ9WQc36hX/YNkQgTcI6gj2DCo81tyZLs+9409+v1NxaMQFxYnMqz9sY5JU87imZJQ==
+"@shoelace-style/shoelace@^2.0.0-beta.61":
+  version "2.0.0-beta.61"
+  resolved "https://registry.yarnpkg.com/@shoelace-style/shoelace/-/shoelace-2.0.0-beta.61.tgz#9ad34b16e2c9c1e304b970ff5793705026b134d8"
+  integrity sha512-kt9r0HM5MiN3UU8rZ4QYjSdfqgyqVCp0FeSRu3L/HFSj18Ggl5kQ21bP1Up/1URFVJ/webfJ2Jrp4swbHdjYAA==
   dependencies:
+    "@lit-labs/react" "^1.0.1"
     "@popperjs/core" "^2.7.0"
     "@shoelace-style/animations" "^1.1.0"
     color "^3.1.3"
-    lit "^2.0.0"
+    lit "^2.0.2"
     qr-creator "^1.0.0"
 
 "@types/eslint-scope@^3.7.0":
@@ -1161,7 +1167,7 @@ lit-html@^2.0.0:
   dependencies:
     "@types/trusted-types" "^2.0.2"
 
-lit@^2.0.0:
+lit@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/lit/-/lit-2.0.2.tgz#5e6f422924e0732258629fb379556b6d23f7179c"
   integrity sha512-hKA/1YaSB+P+DvKWuR2q1Xzy/iayhNrJ3aveD0OQ9CKn6wUjsdnF/7LavDOJsKP/K5jzW/kXsuduPgRvTFrFJw==

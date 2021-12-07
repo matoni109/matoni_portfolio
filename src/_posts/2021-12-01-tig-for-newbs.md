@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tig for newbs"
+title:  "Tig for Git"
 date:  2021-12-01 09:10:49 +1100
 categories: jea
 # https://stackedit.io/app#
