@@ -45,10 +45,10 @@
   --h-keyword-control: var(--h-keyword);
 }
 .fit-picture {
-  width: 90vw;
+  /* width: 65vw; */
+  width: 95%;
+  margin: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 /* https://www.sitepoint.com/css-viewport-units-quick-start/ */
 .theme-toggle sl-button {

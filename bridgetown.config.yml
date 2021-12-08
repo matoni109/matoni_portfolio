@@ -26,4 +26,4 @@ content_engine: resource
 timezone: Australia/Melbourne
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 6
