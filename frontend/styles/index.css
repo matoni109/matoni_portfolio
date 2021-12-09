@@ -129,6 +129,39 @@
   gap: 0.5rem;
 }
 
+/* pagination ul */
+.pagination-ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.pagination-ul li {
+  display: inline;
+  margin-top: 1rem;
+}
+
+.pagination-ul li span {
+  display: inline;
+  margin-top: 1rem;
+  padding: 0.2rem 0.25rem 0.2rem 0.5rem;
+}
+
+.pagination-ul > a {
+  border-color: transparent;
+  text-decoration: none;
+  opacity: 0.8;
+  padding-top: 0.25rem;
+  transition: opacity 80ms ease, border-color 80ms ease;
+}
+
+.lowlighted {
+  color: grey !important;
+}
+
+.depressed {
+  background-color: var(--bg-highlight);
+}
+
 p,
 blockquote,
 p,

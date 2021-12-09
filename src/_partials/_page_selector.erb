@@ -8,7 +8,8 @@
       <% else %>
         <li class="lowlighted"><span>
             Newer 👈
-          </span></li>
+          </span>
+        </li>
       <% end %>
       <% (1..paginator.total_pages).each do |page_number| %>
         <% if page_number == 1 && ["/posts/", "/posts/index.html"].include?(resource.relative_url) %>
