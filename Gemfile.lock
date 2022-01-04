@@ -1,9 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (6.1.4.1)
-      activesupport (= 6.1.4.1)
-    activesupport (6.1.4.1)
+    activemodel (6.1.4.4)
+      activesupport (= 6.1.4.4)
+    activesupport (6.1.4.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -70,8 +70,8 @@ GEM
     faraday_middleware (1.2.0)
       faraday (~> 1.0)
     ffi (1.15.4)
-    hash_with_dot_access (1.1.0)
-      activesupport (>= 5.0.0, < 7.0)
+    hash_with_dot_access (1.2.0)
+      activesupport (>= 5.0.0, < 8.0)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     kramdown (2.3.1)
@@ -82,7 +82,7 @@ GEM
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    minitest (5.14.4)
+    minitest (5.15.0)
     multipart-post (2.1.1)
     nio4r (2.5.8)
     public_suffix (4.0.6)
@@ -96,9 +96,9 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
-    roda (3.50.0)
+    roda (3.51.0)
       rack
-    rouge (3.26.1)
+    rouge (3.27.0)
     ruby2_keywords (0.0.5)
     serbea (1.0.1)
       activesupport (>= 6.0)
@@ -112,14 +112,14 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     webrick (1.7.0)
-    zeitwerk (2.5.1)
+    zeitwerk (2.5.3)
 
 PLATFORMS
   arm64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
-  bridgetown (~> 1.0.0.alpha11)
+  bridgetown (~> 1.0.0.alpha)
   puma (~> 5.2)
 
 RUBY VERSION

@@ -18,7 +18,8 @@ ruby '~> 3.0'
 # bin/bridgetown start
 # bridgetown webpack update
 # bundle update bridgetown
+# https://github.com/bridgetownrb/bridgetown-prismic
 
 # gem "bridgetown", "~> 0.21.4"
-gem 'bridgetown', '~> 1.0.0.alpha11'
+gem 'bridgetown', '~> 1.0.0.alpha'
 gem 'puma', '~> 5.2'
