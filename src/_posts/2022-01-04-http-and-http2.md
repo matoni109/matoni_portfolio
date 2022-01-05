@@ -9,7 +9,7 @@ categories: jea
 <sl-format-date  date="{{page.date}}"  month="long"  day="numeric"  year="numeric"></sl-format-date>
 
 ##### In the beginning..
-There was Hypertext Transfer Protocol, or HTTP, that know it well was versioned HTTP/1.1 in 1997, this predates the existence of [F.A.N.G](https://www.investopedia.com/terms/f/fang-stocks-fb-amzn.asp) by a long way. But what did it do, how does it work currently, and more importantly how will HTTP/2 change our current web applications & how we build them ?
+There was Hypertext Transfer Protocol, or HTTP, was versioned HTTP/1.1 in 1997, this predates the existence of [F.A.N.G](https://www.investopedia.com/terms/f/fang-stocks-fb-amzn.asp) by a long way. But what did it do, how does it work currently, and more importantly how will HTTP/2 change our current web applications & how we build them ?
 
 #### Http/1.1 vs Http2 as a night out at two Http themed cocktail bars
 
@@ -29,7 +29,7 @@ Below is **Http2's** Request Multiplexing in progress, vs **Http/1.1** having to
 
 ### Http2 & the secret sauce and what that means for Rails apps going forward using Turbo
 
-Yes, that is a very long heading, but mostly this is a [Ruby on Rails](#) blog so what exactly is Http2 going to do for me and my `Rails new App`
+Yes, that is a very long heading, but mostly this is a [Ruby on Rails](https://rubyonrails.org/) blog so what exactly is Http2 going to do for me and my `Rails new App`
 
 #### Request Multiplexing
 
