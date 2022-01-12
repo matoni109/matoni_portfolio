@@ -19,7 +19,7 @@ One of the main premisses of the Product Design Spring (PDS):
 
 > Fail fast, fail hard, fail early, and move on without expending excessive amounts of resources. 💸💸💸
 >
-> or the ☀️-side is you've found a successful product, done it collabatively, and for little R&D cost.
+> or the ☀️-side is you've found a successful product, done it collaboratory, and for little R&D cost.
 
 ### How To Cook a PDS Pudding
 
@@ -27,10 +27,10 @@ Traditionally a PDS is committed to over 5 days, so Monday to Friday covering th
 
 #### Things You Will Need
 
-- Humans: Get your team together in a colab enviroment, can all the meetings and ceremonies and give everyone a clean slate for the week, keep the destractions to a minimum outside of the PDS environment.
-- Time: Actually allocaton the 5 days, and don't half bake 🧑‍🍳 the process.
+- Humans: Get your team together in a colab environment, can all the meetings and ceremonies and give everyone a clean slate for the week, keep the distractions to a minimum outside of the PDS environment.
+- Time: Actually allocate the 5 days, and don't half bake 🧑‍🍳 the process.
 - Stationary: All of the Sticky Notes you can muster, all of the High Lighters, and all of the Sharpies. 🖊️
-- User Focus: This might acutally be a shock to the back-end developers at your workplace, but outside of Postgres there are **_Users_** that actualy `USE` the products that they spend their time building, these guys may need some support during the process. 🦮
+- User Focus: This might actually be a shock to the back-end developers at your workplace, but outside of Postgres there are **_Users_** that actually `USE` the products that they spend their time building, these guys may need some support during the process. 🦮
 
 #### How to Mix This All Up
 
@@ -47,9 +47,9 @@ What exactly are the collective team going after, what is the shared goal in min
 
 #### Step 2: Sketch / Diverge
 
-There are move than one way to solve any problem, there could be more than one golden path. There are no wrong answers here, extact as much create problem solving capacity from the team as possible. Discuss the `User` flow and stories, really pick them apart and find out how different team members would go about solving them, ellaborating on them.
+There are move than one way to solve any problem, there could be more than one golden path. There are no wrong answers here, extract as much create problem solving capacity from the team as possible. Discuss the `User` flow and stories, really pick them apart and find out how different team members would go about solving them, elaborating on them.
 
-- Time to get those High Ligthers and Sticky notes out, "we are going story boarding"!
+- Time to get those High Lighters and Sticky notes out, "we are going story boarding"!
 - Get your teams ideas up on the whiteboards, add and change ideas quickly
 - More Sticky Notes
 - Mind Map the `User` stories as a group, where do they **_Start_** and **_Finish_**
@@ -64,7 +64,7 @@ It is crunch time people, as a group you need to move forward as a singular visi
 
 #### Step 4: Build / Prototype
 
-Time to tap your local front-end deveopler on the shoulder, or the more visually creative amongst you and hoist up a landing page, Keynote, just use a static site generator no need to get into the framework weeds on this one.
+Time to tap your local front-end developer on the shoulder, or the more visually creative amongst you and hoist up a landing page, Keynote, just use a static site generator no need to get into the framework weeds on this one.
 
 - Build a light-weight `User` facing visual prototype
 - Make it a super stripped back MVP, don't waste resources fleshing it out
@@ -72,16 +72,16 @@ Time to tap your local front-end deveopler on the shoulder, or the more visually
 
 #### Step 5: Test & Learn
 
-Now we need to wrangle some humans and potenital `Users` from the real-world, outside. It's time to validate your ideas before you invest in designing and developing the product. How are `Users` actually going to relate to the product, if at all ?
+Now we need to wrangle some humans and potential `Users` from the real-world, outside. It's time to validate your ideas before you invest in designing and developing the product. How are `Users` actually going to relate to the product, if at all ?
 
-- Find a small capitive group of `Users` to test your product on
-- Are they intersted, do they interact as expected ?
-- Do they interact with the current market leader diferently to the teams Product ?
+- Find a small captive group of `Users` to test your product on
+- Are they interested, do they interact as expected ?
+- Do they interact with the current market leader differently to the teams Product ?
 - Collate these findings so that the group an report if this Product actually has some legs
 
 #### Endgame / Outcomes
 
-Time to report up to leadship your teams findings, and if **_This_** product could infact be the right one for your team to be actually building, and not just building a product and hoping they the users will come. Maybe a PDS is the right way to go about building a product for your team ? Try one out and **_Don’t Be Evil. Don’t Be Building It_** if you don't have to.
+Time to report up to leadship your teams findings, and if **_This_** product could in fact be the right one for your team to be actually building, and not just building a product and hoping they the users will come. Maybe a PDS is the right way to go about building a product for your team ? Try one out and **_Don’t Be Evil. Don’t Be Building It_** if you don't have to.
 
 **_references:_**
 
