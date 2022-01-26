@@ -22,4 +22,18 @@ ruby '~> 3.0'
 
 # gem "bridgetown", "~> 0.21.4"
 gem 'bridgetown', '~> 1.0.0.beta1'
-gem 'puma', '~> 5.2'
+gem 'puma', '~> 5.5'
+
+# group :development do
+#   gem "debug", "~> 1.4"
+#   gem "standard", "~> 1.6.0"
+#   gem "solargraph", "~> 0.44.2"
+# end
+
+# group :bridgetown_plugins do
+#   gem "bridgetown-view-component", "~> 0.7.0"
+#   gem "bridgetown-svg-inliner", "~> 1.0"
+#   gem "bridgetown-cloudinary", "~> 1.2"
+#   gem "bridgetown-plausible", "~> 1.0.2"
+#   gem "view_component", "< 2.48"
+# end
