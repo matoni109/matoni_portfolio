@@ -38,7 +38,7 @@ As you can see from above, the Rails framework gives an amazing base to work up 
 
 #### Encrypted Database Layer
 
-Your do need to be running [Rails credentials](https://edgeguides.rubyonrails.org/security.html#custom-credentials) from Rails 6.x, but once you have that up and running it gets [pretty easy from there](https://edgeguides.rubyonrails.org/active_record_encryption.html#setup) and you can just add below to your `model.rb`:
+You do need to be running [Rails credentials](https://edgeguides.rubyonrails.org/security.html#custom-credentials) from Rails 6.x, but once you have that up and running it gets [pretty easy from there](https://edgeguides.rubyonrails.org/active_record_encryption.html#setup) and you can just add below to your `model.rb`:
 
 ```ruby
 class Article < ApplicationRecord
@@ -104,7 +104,7 @@ Useful way to [obtain the inverse](https://github.com/rails/rails/pull/40249) of
 # SELECT \"cats\".* FROM \"cats\" WHERE NOT (\"cats\".\"fun_score\" BETWEEN 80 AND 100)
 ```
 
-I hope that give you a high level fly by of what's there to be unpacked from Rails 7.x, there are plenty of my hidden `gems` to find, try the articles below for more.
+I hope that gives you a high level fly by of what's there to be unpacked from Rails 7.x, there are plenty more hidden `gems` to find, try the articles below for more.
 
 ***references:***
 -  [solutelabs](https://www.solutelabs.com/blog/ruby-on-rails-7)
