@@ -13,7 +13,7 @@ The first ever version of Rails I ran into as a bootcamp newbie was `rails 6.0.3
 
 #### webpacker benched, import maps subbed in at the start of the 3rd
 
-The big news has [webpacker](https://github.com/rails/webpacker#webpacker-has-been-retired-) being officially retired, having played a central role for 5 + years in transpiling and bundling all things `js`. Technology improvements in http and more importantly [http/2](https://world.hey.com/dhh/rails-7-will-have-three-great-answers-to-javascript-in-2021-8d68191b) allowed for the advent of [esbuild](#) & [import maps](#). Don't take it from me, take it from [D.H.H](https://youtu.be/PtxZvFnL2i0?t=119), the following is now `true`:
+The big news has [webpacker](https://github.com/rails/webpacker#webpacker-has-been-retired-) being officially retired, having played a central role for 5 + years in transpiling and bundling all things `js`. Technology improvements in http and more importantly [http/2](https://world.hey.com/dhh/rails-7-will-have-three-great-answers-to-javascript-in-2021-8d68191b) allowed for the advent of [esbuild](https://github.com/evanw/esbuild) & [import maps](https://github.com/rails/importmap-rails). Don't take it from me, take it from [D.H.H](https://youtu.be/PtxZvFnL2i0?t=119), the following is now `true`:
 
 - Webpacker, Turbolinks, and UJS `out`
 - [import maps](https://github.com/rails/importmap-rails), [Turbo](https://turbo.hotwired.dev/), and [Stimulus](https://stimulus.hotwired.dev/) from [Hotwire](https://hotwired.dev/) are `in`
