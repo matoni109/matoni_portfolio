@@ -10522,6 +10522,7 @@
       "Typography"
     ],
     "tags": [
+      "math",
       "infinite"
     ]
   },
@@ -16611,8 +16612,8 @@
     ]
   },
   {
-    "name": "ticket-perferated-fill",
-    "title": "Ticket perferated fill",
+    "name": "ticket-perforated-fill",
+    "title": "Ticket perforated fill",
     "categories": [
       "Real World"
     ],
@@ -16622,8 +16623,8 @@
     ]
   },
   {
-    "name": "ticket-perferated",
-    "title": "Ticket perferated",
+    "name": "ticket-perforated",
+    "title": "Ticket perforated",
     "categories": [
       "Real World"
     ],
