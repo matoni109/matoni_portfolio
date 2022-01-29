@@ -21,7 +21,7 @@ ruby '~> 3.0'
 # https://github.com/bridgetownrb/bridgetown-prismic
 
 # gem "bridgetown", "~> 0.21.4"
-gem 'bridgetown', '~> 1.0.0.beta1'
+gem 'bridgetown', '~> 1.0.0.beta2'
 gem 'puma', '~> 5.5'
 
 # group :development do
