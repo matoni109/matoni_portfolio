@@ -3,6 +3,7 @@ import "@shoelace-style/shoelace/dist/themes/light.css";
 import "@shoelace-style/shoelace/dist/themes/dark.css";
 import "@shoelace-style/shoelace/dist/components/image-comparer/image-comparer.js";
 import "@shoelace-style/shoelace/dist/components/responsive-media/responsive-media.js";
+import "@shoelace-style/shoelace/dist/components/avatar/avatar.js";
 // import "@shoelace-style/shoelace/dist/components/alert/alert.js";
 // import "@shoelace-style/shoelace/dist/components/checkbox/checkbox.js";
 import "@shoelace-style/shoelace/dist/components/button/button.js";

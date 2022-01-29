@@ -1,4 +1,3 @@
-
 /* https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#toggling-themes */
 :root {
   --body-background: #fafafa;
@@ -43,6 +42,22 @@
   --h-selector: var(--h-keyword);
   --h-keyword-control: var(--h-keyword);
 }
+
+sl-avatar.about {
+  --size: 6rem;
+  padding-left: 1rem;
+}
+
+sl-divider {
+  margin-top: 0.1rem;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .fit-picture {
   /* width: 65vw; */
   width: 95%;
@@ -51,11 +66,17 @@
 }
 /* https://www.sitepoint.com/css-viewport-units-quick-start/ */
 .theme-toggle sl-button {
-  position: fixed;
-  z-index: 1000;
-  right: 0;
-  top: 0;
-  padding: 0.3rem;
+  /* position: absolute; */
+  /* right: 0;
+
+  top: 0; */
+  /* padding: 0.3rem; */
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.theme-avatar sl-avatar {
+  /* padding: 0.3rem; */
   cursor: pointer;
 }
 
@@ -100,9 +121,10 @@
 .navbar-menu {
   list-style-type: none;
   place-items: center;
-  height: 1.3rem;
-  line-height: 1.25rem;
-  margin-left: auto;
+  position: relative;
+  /* height: 1.3rem;
+  line-height: 1.25rem; */
+  /* margin-left: auto; */
 }
 
 .navbar-menu-item {
@@ -112,7 +134,7 @@
   border-color: transparent;
   text-decoration: none;
   opacity: 0.8;
-  padding-top: 0.25rem;
+  /* padding-top: 0.25rem; */
   transition: opacity 80ms ease, border-color 80ms ease;
 }
 

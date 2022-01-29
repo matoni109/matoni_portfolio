@@ -1,29 +1,32 @@
 <nav>
-  <ul class="navbar-menu">
-    <li class="navbar-menu-item">
-      {% if resource.data.slug == "index" %}
-      <a class="active" href="/">Home</a>
-      {% else %}
-      <a class="" href="/">Home</a>
-      {% endif %}
-    </li>
+  <div class="nav-flex">
+    {% render "avatar" %}
+    <ul class="navbar-menu">
+      <li class="navbar-menu-item">
+        {% if resource.data.slug == "index" %}
+        <a class="active" href="/">Home</a>
+        {% else %}
+        <a class="" href="/">Home</a>
+        {% endif %}
+      </li>
 
-    <li class="navbar-menu-item">
-      {% if resource.data.slug == "about" %}
-      <a class="active" href="/about">About</a>
-      {% else %}
-      <a class="" href="/about">About</a>
-      {% endif %}
-    </li>
+      <li class="navbar-menu-item">
+        {% if resource.data.slug == "about" %}
+        <a class="active" href="/about">About</a>
+        {% else %}
+        <a class="" href="/about">About</a>
+        {% endif %}
+      </li>
 
-    <li class="navbar-menu-item">
-      {% if resource.data.slug == "posts" %}
-      <a class="active" href="/posts">Posts</a>
-      {% else %}
-      <a class="" href="/posts">Posts</a>
-      {% endif %}
-    </li>
-  </ul>
-  {% render "theme_toggle" %}
+      <li class="navbar-menu-item">
+        {% if resource.data.slug == "posts" %}
+        <a class="active" href="/posts">Posts</a>
+        {% else %}
+        <a class="" href="/posts">Posts</a>
+        {% endif %}
+      </li>
+    </ul>
+    {% render "theme_toggle" %}
+  </div>
   <sl-divider style="--width: 2px"></sl-divider>
 </nav>

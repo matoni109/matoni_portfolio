@@ -8,6 +8,10 @@ permalink: /about/
 
 **About me 🔭**
 
+<sl-avatar shape="circle" initials="CW" image="https://res.cloudinary.com/oeelsafe/image/upload/v1627111944/r88j7skh1f3mpb4pd8lah4nag3kc.jpg" label="Chris Wade Developer" class="about" >
+</sl-avatar>
+
+
 I'm a 39yo based in Melbourne, originally from Perth 🇦🇺
 
 I have been in the B2B Sales space for 15+ years, which has made me very attentive, understanding to customer needs and adapting in a fast moving environment.
