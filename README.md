@@ -1,70 +1,18 @@
 # Bridgetown Website README
 
-Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
+Welcome to my personal portfolio site:
+- [chriswade.codes](https://chriswade.codes/)
 
-## Table of Contents
+### Tooling 
 
-- [Prerequisites](#prerequisites)
-- [Install](#install)
-- [Development](#development)
-- [Commands](#commands)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
+- Ruby 3.0
+- esbuild ( no webpacker ) 
+- [Stimulus JS](https://stimulus.hotwired.dev/)
+- [shoelace components](https://shoelace.style/)
+- `'bridgetown', '~> 1.0.0.beta2'`
 
-## Prerequisites
+### Made using Bridgetown SSG 
+- [Bridgetown](https://edge.bridgetownrb.com/)
 
-- [GCC](https://gcc.gnu.org/install/)
-- [Make](https://www.gnu.org/software/make/)
-- [Ruby](https://www.ruby-lang.org/en/downloads/)
-  - `>= 2.5`
-- [Bridgetown Gem](https://rubygems.org/gems/bridgetown)
-  - `gem install bundler bridgetown -N`
-- [Node](https://nodejs.org)
-  - `>= 10.13`
-- [Yarn](https://yarnpkg.com)
-
-## Install
-
-```sh
-cd bridgetown-site-folder
-bundle install && yarn install
-```
-> Learn more: [Bridgetown Getting Started Documentation](https://www.bridgetownrb.com/docs/).
-
-## Development
-
-To start your site in development mode, run `yarn start` and navigate to [localhost:4000](https://localhost:4000/)!
-
-Use a [theme](https://github.com/topics/bridgetown-theme), add some [plugins](https://www.bridgetownrb.com/plugins/), and/or run some [automations](https://github.com/topics/bridgetown-automation) to get started quickly.
-
-### Commands
-
-```sh
-# running locally
-yarn start
-
-# build & deploy to production
-yarn deploy
-
-# load the site up within a Ruby console (IRB)
-bundle exec bridgetown console
-```
-
-> Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
-
-## Deployment
-
-You can deploy Bridgetown sites on "Jamstack" hosts (Netlify, Vercel, Render, etc.) or virtually any tranditional web server by simply building and copying the output folder to your HTML root.
-
-> Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
-
-## Contributing
-
-If repo is on GitHub:
-
-1. Fork it
-2. Clone the fork using `git clone` to your local development machine.
-3. Create your feature branch (`git checkout -b my-new-feature`)
-4. Commit your changes (`git commit -am 'Add some feature'`)
-5. Push to the branch (`git push origin my-new-feature`)
-6. Create a new Pull Request
+### Site Preview
+<img width="1042" alt="Screen Shot 2022-02-01 at 11 12 54 am" src="https://user-images.githubusercontent.com/68096885/151893710-7b7a4a7c-1729-46bf-a562-8d2a0c77f099.png">
