@@ -26,4 +26,4 @@ I am currently working at [DiscoLabs](https://www.discolabs.com/) and enrolled i
 
 I will be very happy to catch up with you around a beer 🍺 or a coffee ☕
 
-You can contact me through my [email](mailto:chris@wadespace.net), visit my [linkedin](https://www.linkedin.com/in/chris-wade-59690959/), or visit my [personal blog](https://chriswade.codes/posts).
+You can contact me through my [email](mailto:chris@wadespace.net), or visit my [linkedin](https://www.linkedin.com/in/chris-wade-59690959/).
