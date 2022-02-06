@@ -20,10 +20,10 @@ I have always been curious about the tech industry and I recently started my jou
 
 When I am not coding, I love cycling 🚴, traveling 🌏 and good coffee ☕.
 
-I am currently working in the B2B Sales sector. I am also open to discuss opportunities as a Junior Software Developer, I'm most interested in working in a team environment, striving together to solve problems and learn along the way.
+I am currently working as at [DiscoLabs](https://www.discolabs.com/) and enrolled in their Junior Engineer Academy ( J.E.A ), I'm most interested in working in a team environment, striving together to solve problems and learn along the way.
 
 **How to reach me 📬**
 
 I will be very happy to catch up with you around a beer 🍺 or a coffee ☕
 
-You can contact me through my [email](mailto:chris@wadespace.net) or visit my [linkedin](https://www.linkedin.com/in/chris-wade-59690959/).
+You can contact me through my [email](mailto:chris@wadespace.net), visit my [linkedin](https://www.linkedin.com/in/chris-wade-59690959/), or visit my [personal blog](https://chriswade.codes/posts).
