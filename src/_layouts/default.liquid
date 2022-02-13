@@ -15,6 +15,7 @@
       {{ content }}
     </main>
 
-    {% render "footer", metadata: site.metadata %}
+    {% render "footer", metadata: site.metadata, page: page, resource: resource
+    %}
   </body>
 </html>

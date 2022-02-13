@@ -151,6 +151,38 @@ sl-divider {
 }
 
 /* footer things */
+.socials-footer {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  margin-bottom: 0.6rem;
+}
+
+.socials-footer-item {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.footer {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.footer-item {
+  margin: 0.3rem 0.3rem 0.3rem 0.3rem;
+  font-size: small;
+}
+
+.column {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
 
 footer a {
   text-decoration: none;
@@ -244,6 +276,10 @@ body a {
   color: var(--sl-color-primary-600);
   text-decoration: none;
 }
+
+/* body a:hover {
+  text-decoration: dashed;
+} */
 
 .highlighter-rouge {
   border-radius: 0.25rem;
