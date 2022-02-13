@@ -102,7 +102,12 @@ sl-divider {
 }
 
 /* dark mode button end  */
-
+.email-highlight {
+  background-color: #000000;
+  padding: 0.1rem;
+  border-radius: 00.25rem;
+  color: whitesmoke;
+}
 /* nav bar menu  */
 
 .navbar-menu li {
@@ -512,6 +517,13 @@ body.sl-theme-dark p {
 
 .sl-theme-dark .navbar-menu a:visited {
   color: #eee;
+}
+
+.sl-theme-dark .email-highlight {
+  background-color: var(--bg-highlight);
+  padding: 0.1rem;
+  border-radius: 00.25rem;
+  color: whitesmoke;
 }
 
 .sl-theme-dark .highlighter-rouge {
