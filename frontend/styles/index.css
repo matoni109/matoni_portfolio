@@ -150,6 +150,13 @@ sl-divider {
   gap: 0.5rem;
 }
 
+/* footer things */
+
+footer a {
+  text-decoration: none;
+  padding-right: 0.8rem;
+}
+
 /* pagination ul */
 .pagination-ul {
   list-style-type: none;
@@ -232,6 +239,11 @@ main {
 }
 
 /* Light Theme Code */
+
+body a {
+  color: var(--sl-color-primary-600);
+  text-decoration: none;
+}
 
 .highlighter-rouge {
   border-radius: 0.25rem;
