@@ -1,0 +1,23 @@
+version: 1
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Specify labels for npm pull requests
+    labels:
+      - "yarn"
+      - "dependencies"
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "npm"
+
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "bundler"
+      - "dependencies"
+    commit-message:
+      prefix: "bundler"
