@@ -67,7 +67,7 @@ Just because you place a `block` after a method, doesn't mean that the method wi
   #=> [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
-#### your method might block you for ignoring your block
+#### your method might block you from ignoring your block
 
 Using the `&block` syntax will force you to pass a block to the method otherwise 🧨 will happen ( well an `ArgumentError`).
 
