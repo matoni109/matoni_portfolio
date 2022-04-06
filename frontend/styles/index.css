@@ -539,6 +539,10 @@ body.sl-theme-dark p {
   color: #eee;
 }
 
+.sl-theme-dark bridgetown-search-form input {
+  color: black;
+}
+
 .sl-theme-dark bridgetown-search-results {
   --link-color: #809fff;
   --divider-color: #e6e1d7;
