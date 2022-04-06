@@ -26,7 +26,8 @@
         {% endif %}
       </li>
     </ul>
-    {% render "theme_toggle" %}
+    {% render "bridgetown_quick_search/search", placeholder: "Search",
+    input_class: "input", snippet_length: 142 %} {% render "theme_toggle" %}
   </div>
   <sl-divider style="--width: 2px"></sl-divider>
 </nav>
