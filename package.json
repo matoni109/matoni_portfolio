@@ -23,6 +23,7 @@
   "dependencies": {
     "@hotwired/stimulus": "^3.0.1",
     "@hotwired/turbo": "^7.1.0",
-    "@shoelace-style/shoelace": "^2.0.0-beta.64"
+    "@shoelace-style/shoelace": "^2.0.0-beta.64",
+    "bridgetown-quick-search": "1.1.3"
   }
 }

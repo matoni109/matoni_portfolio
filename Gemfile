@@ -37,3 +37,5 @@ gem 'puma', '~> 5.6'
 #   gem "bridgetown-plausible", "~> 1.0.2"
 #   gem "view_component", "< 2.48"
 # end
+
+gem "bridgetown-quick-search", "~> 1.1", :group => :bridgetown_plugins

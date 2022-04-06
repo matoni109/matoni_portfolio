@@ -16,6 +16,9 @@ import "@shoelace-style/shoelace/dist/components/divider/divider.js";
 import { setBasePath } from "@shoelace-style/shoelace/dist/utilities/base-path.js";
 
 import { Application } from "@hotwired/stimulus";
+
+import "bridgetown-quick-search/dist";
+
 import * as Turbo from "@hotwired/turbo";
 // Import all javascript files from src/_components
 import components from "bridgetownComponents/**/*.{js,jsx,js.rb,css}";
