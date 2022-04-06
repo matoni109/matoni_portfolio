@@ -544,7 +544,7 @@ body.sl-theme-dark p {
   --divider-color: #e6e1d7;
   --text-color: #eee;
   --border-radius: 8px;
-  /* --background-color: pink !important; */
+  --background: #121212;
 }
 
 .sl-theme-dark .navbar-menu a:visited {
