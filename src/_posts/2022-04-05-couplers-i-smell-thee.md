@@ -16,7 +16,7 @@ categories: jea
 Think you have a code smell? Well today we are going to go though a list of `smells` that are grouped into the context of **Couplers**. We will go through each of them, and how they each contribute to the making of the
 **Worse Code Smell Ever**
 
-What makes this particular code smell so destructive to your code base is that the ghosts of your past bad design practices start to lay waste to your code as soon as you start to make any changes. This leads into a reductive feedback loop that leads to developer paralysis when trying to implement any "new" features.
+What makes this particular code smell so destructive to your code base is that the ghosts of your past bad design practices start to lay waste to your code, as soon as you start to make any changes. This leads into a reductive feedback loop that leads to developer paralysis when trying to implement any "new" features.
 
 ## Couplers: who cut the 🧀 ?
 Couplers represent a tight coupling between classes or methods.
@@ -67,18 +67,18 @@ customer.getAddress.getCountry.toString;
 <img  class="fit-picture"  src="https://res.cloudinary.com/oeelsafe/image/upload/v1649227538/complex-message-chain_c7qdfc"  alt="message chains" ><span style="font-size: small"></span></div>
 
 Now this has a couple of problems:
-1. the messages || methods have to chained together in a certain way
-2. if we are replicating this in numerous areas in the app, each of these message calls have to be updated at hte same thing otherwise Kaboom!
+1. the messages || methods have to be chained together in a certain way
+2. if we are replicating this in numerous areas in the app, each of these message calls have to be updated at the same time otherwise Kaboom!
 
 The solution ?
  - ~~delegate your order to a waiter~~ Use [Delegate](https://refactoring.guru/hide-delegate) to get closer to the call
- - ~~move to a quieter bar~~ Move or Extact the call into a new method with the login inside
+ - ~~move to a quieter bar~~ Move or Extact the call into a new method with the logic inside
 
 ## Middle Man
 <div style="text-align: center; padding-top: 1rem">
 <img  class="fit-picture"  src="https://res.cloudinary.com/oeelsafe/image/upload/v1649213758/middle-man-01_lqhwmu"  alt="middle man" ><span style="font-size: small">If a class performs only one action, delegating work to another class, why does it exist at all?</span></div>
 
-Somehow in the process of ordering all of your drinks all night, and paying tips to them you relise that all of this `delegation` is getting very expensive. The use of a waiter object has cut you off from the source, so why not just engage the barman directly ? You could also do like below, and allow yourself to get drinks from both the `waiter` or the `barman` directly.
+Somehow in the process of ordering all of your drinks all night, and paying tips to the `waiter` you realise that all of this `delegation` is getting very expensive. The use of a waiter object has cut you off from the source, so why not just engage the barman directly ? You could also do like below, and allow yourself to get drinks from both the `waiter` or the `barman` directly when required.
 
 <div style="text-align: center; padding-top: 1rem; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center ">
 <img  style="max-width: 180px; padding: 1.5rem; text-align: center;"  src="https://res.cloudinary.com/oeelsafe/image/upload/v1649230621/Remove_20Middle_20Man_20-_20Before_okmsii"  alt="middle man" ><img  style="max-width: 480px; text-align: center; "  src="https://res.cloudinary.com/oeelsafe/image/upload/v1649230823/Remove_20Middle_20Man_20-_20After_zp0trn"  alt="middle man" ></div>
