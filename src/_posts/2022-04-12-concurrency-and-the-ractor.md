@@ -133,7 +133,34 @@ pp (1..N).map{
   [wid, n, b]
 }.sort_by{|(wid, n, b)| n}
 ```
+Will give you below, see how different workers pick up the threads and computer the logic..
+Magic Ractors..
 
+```ruby
+=>
+[["worker #3}", 1, false],
+ ["worker #2}", 2, true],
+ ["worker #1}", 3, true],
+ ["worker #4}", 4, false],
+ ["worker #5}", 5, true],
+ ["worker #6}", 6, false],
+ ["worker #7}", 7, true],
+ ["worker #9}", 8, false],
+ ["worker #10}", 9, false],
+ ["worker #8}", 10, false],
+ ["worker #1}", 11, true],
+ ["worker #2}", 12, false],
+ ["worker #3}", 13, true],
+ ["worker #4}", 14, false],
+ ["worker #5}", 15, false],
+ ["worker #6}", 16, false],
+ ["worker #1}", 17, true],
+ ["worker #7}", 18, false],
+ ["worker #9}", 19, true],
+ ["worker #10}", 20, false],
+ ["worker #8}", 21, false],
+ ["worker #1}", 22, false]]
+```
 ***references:***
 - [speedshop - GVL ](https://www.speedshop.co/2020/05/11/the-ruby-gvl-and-scaling.html)
 - [ruby ractors docs](https://github.com/ruby/ruby/blob/master/doc/ractor.md)
