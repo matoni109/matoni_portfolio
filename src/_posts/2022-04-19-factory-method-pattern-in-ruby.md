@@ -64,6 +64,7 @@ class OrderGenerator
 end
 
 OrderGenerator.generate(order_data, 'sea')
+#...
 line001 of 2 cats
 line002 of 3 bunnies
 line003 of 3 ferrets
