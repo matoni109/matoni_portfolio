@@ -29,7 +29,7 @@ But today we are going to pick on **the factory pattern**, which our dear friend
 
 ### but for a factory the kingdom was lost
 
-now to dive into what a ***factory pattern*** can do for your codebase, the `<label>` describe it as being able to "create" Classes or Objects in a scalable or dynamic sense, while allowing your code to be flexible, malleable, and ductile to futures changes or added features. So at a high level fly by, code written with a factory pattern in mind will be able to instantiate objects of the Classes of the problem domain it traverses.
+Now to dive into what a ***factory pattern*** can do for your codebase, the `<label>` describes it as being able to "create" Classes or Objects in a scalable & dynamic way. All the while allowing your code to be flexible, malleable, and ductile to futures changes or added features. So at a high level fly by, code written with a factory pattern in mind will be able to instantiate objects of the Classes of the problem domain it traverses.
 
   <div style="text-align: center; padding-top: 1rem; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center ">
     <div style="display: flex; flex-direction: column;">
@@ -44,7 +44,7 @@ now to dive into what a ***factory pattern*** can do for your codebase, the `<la
 
 #### figure_1
 
-so below will work just fine for `figure_1` but will get pretty cray cray real which if you want to start and add extra types of freight. You could try and hide your sins inside a `case` statement, but they'll still be there 🧟.
+so below will work just fine for `figure_1` but will get pretty cray cray real quick if you want to start and add extra freight types. You could try and hide your sins inside a `case` statement, but they'll still be there 🧟.
 
 ```ruby
 order_data = { line001: '2 cats', line002: '3 bunnies', line003: '3 ferrets' }
