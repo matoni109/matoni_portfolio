@@ -58,7 +58,7 @@ bridgetown-search-form input {
   font-weight: 520;
   margin-bottom: 0.3em;
   padding: 0.2em 0.6em;
-  width: calc(100% - 1.3em);
+  width: calc(90% - 1.3em);
   background: #fff;
   opacity: .5;
   border: 1px solid var(--color-light-gray);
@@ -289,7 +289,7 @@ body {
   font-family: var(--sl-font-mono);
 }
 
-nav,
+
 footer {
   text-align: center;
 }
