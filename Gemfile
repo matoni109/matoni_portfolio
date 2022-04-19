@@ -22,7 +22,7 @@ ruby '~> 3.0'
 
 # gem "bridgetown", "~> 0.21.4"
 gem 'bridgetown', '~> 1.0.0.beta3'
-gem 'puma', '~> 5.6'
+gem 'puma', '~> 5.6.4'
 
 # group :development do
 #   gem "debug", "~> 1.4"
@@ -38,4 +38,4 @@ gem 'puma', '~> 5.6'
 #   gem "view_component", "< 2.48"
 # end
 
-gem "bridgetown-quick-search", "~> 1.1", :group => :bridgetown_plugins
+gem 'bridgetown-quick-search', '~> 1.1', group: :bridgetown_plugins
