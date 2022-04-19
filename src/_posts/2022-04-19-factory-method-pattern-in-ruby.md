@@ -54,7 +54,7 @@ class OrderGenerator
     if type == 'road'
       order.each_pair { |key, value| puts "#{key} of #{value}" }
       puts 'Delivered by 🚚'
-    elsif  if type == 'sea'
+    elsif type == 'sea'
       order.each_pair { |key, value| puts "#{key} of #{value}" }
       puts 'Delivered by 🛥️'
     else
