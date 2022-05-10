@@ -21,7 +21,7 @@ ruby '~> 3.0'
 # https://github.com/bridgetownrb/bridgetown-prismic
 
 # gem "bridgetown", "~> 0.21.4"
-gem 'bridgetown', '~> 1.0.0.beta3'
+gem 'bridgetown', '~> 1.0'
 gem 'puma', '~> 5.6.4'
 
 # group :development do
@@ -39,3 +39,12 @@ gem 'puma', '~> 5.6.4'
 # end
 
 gem 'bridgetown-quick-search', '~> 1.1', group: :bridgetown_plugins
+
+group :test, optional: true do
+  gem 'minitest'
+  gem 'minitest-profile'
+  gem 'minitest-reporters'
+  gem 'nokogiri'
+  gem 'rails-dom-testing'
+  gem 'shoulda'
+end
