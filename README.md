@@ -9,7 +9,7 @@ Welcome to my personal portfolio site:
 - esbuild ( no webpacker ) 
 - [Stimulus JS](https://stimulus.hotwired.dev/)
 - [shoelace components](https://shoelace.style/)
-- `'bridgetown', '~> 1.0.0.beta2'`
+- `'bridgetown', '~> 1.0.0'`
 
 ### Made using Bridgetown SSG 
 - [Bridgetown](https://edge.bridgetownrb.com/)
