@@ -1,20 +1,8 @@
 <meta charset="utf-8" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <!-- <link href="https://cdn.jsdelivr.net/npm/holiday.css@0.9.8" rel="stylesheet" /> -->
-
-{% capture page_title %}
-  {{ title | strip_html | strip_newlines }}
-{% endcapture
-%}
-<title>
-  {% if page_title != "" %}
-    {{ page_title | escape }} | {{ metadata.title | escape }}
-  {% else %}
-    {{ metadata.title | escape }}: {{ metadata.tagline | escape }}
-  {% endif %}
-</title>
-
-<meta name="description" content="{{ metadata.description }}" />
+{% seo %}
+  <link rel="icon" type="image/svg+xml" href="https://res.cloudinary.com/oeelsafe/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1624430195/gt1g965ip6txc6mua06i9j1kd13n">
+  <link rel="icon" type="image/png" href="https://res.cloudinary.com/oeelsafe/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1624430195/gt1g965ip6txc6mua06i9j1kd13n">
 {% live_reload_dev_js %}
 <link rel="stylesheet" href="{% asset_path css %}" data-turbo-track="reload" />
 <script src="{% asset_path js %}" defer data-turbo-track="reload"></script>
