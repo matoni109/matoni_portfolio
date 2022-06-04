@@ -3,9 +3,30 @@
 # you will see them accessed via {{ site.metadata.title }}, {{ site.metadata.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
+version: 0.0.1
 
-title: Chris Wade's Portfolio Site
-tagline: Documents my Junior Engineer Academy Journey @ Disco Labs in Melbourne, Australia
+charset: utf-8
+lang: en
+direction: ltr
+
+domain: chriswade.codes
+url: https://chriswade.codes/
+repo: matoni109/matoni_portfolio
+
+title: Chris Wade — Ruby on Rails Software Engineer
+tagline: " - chriswade.codes"
 email: chris.wade@hey.com
 description: >-
-  Documents my Junior Engineer Academy Journey @ Disco Labs in Melbourne, Australia
+  Chris Wade is a ruby on rails software developer, working in Melbourne, Australia
+
+twitter:
+  username: "@chriswadecodes"
+  card: "summary_large_image"
+  url: https://twitter.com/chriswadecodes/
+
+author:
+  name: Chris Wade
+  picture: https://res.cloudinary.com/oeelsafe/image/upload/v1624430195/gt1g965ip6txc6mua06i9j1kd13n.jpg
+  twitter: chriswadecodes
+  uri: https://chriswade.codes/
+  github: matoni109
