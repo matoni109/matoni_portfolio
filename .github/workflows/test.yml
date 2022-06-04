@@ -39,7 +39,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - name: Build dependencies and database
-        env:
         run: |
           sudo apt-get -yqq install libpq-dev
           gem install bundler -v '2.22.2'
