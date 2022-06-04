@@ -1,0 +1,54 @@
+name: BridgetownTestSuite
+
+on: [push]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test_mini_test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0.0
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.6.0'
+          cache: 'yarn'
+
+      - name: Set Yarn -v and Install
+        run: |
+          yarn install --frozen-lockfile
+
+      - name: Cache bundled gems
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Build dependencies and database
+        run: |
+          sudo apt-get -yqq install libpq-dev
+          gem install bundler
+          bundle config build.nokogiri --use-system-libraries
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+      - name: Run Mini Test Suite
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          RAILS_ENV: test
+        run: |
+          bundle exec bin/bridgetown test
