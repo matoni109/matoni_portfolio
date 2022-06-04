@@ -1,5 +1,13 @@
+name: BridgetownTestSuite
 
-  test_mini:
+on: [push]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test_mini_test:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true
