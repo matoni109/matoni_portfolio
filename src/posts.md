@@ -6,22 +6,14 @@ paginate:
   collection: posts
 
 ---
-<ul>
+<ul class="post-list">
   {% for post in paginator.resources  %}
     <li>
-      <a href="{{ post.relative_url }}">{{ post.title }}</a>
-      <!-- <p>   {{ post.date | date: "%Y-%m-%d" }} </p> -->
+     <a href="{{ post.relative_url }}">{{ post.title }}</a>
      <p> <sl-format-date date="{{post.date}}" month="long" day="numeric" year="numeric"></sl-format-date></p>
     </li>
   {% endfor %}
 </ul>
-
-<!-- <script>
-  const checkbox = document.querySelector('sl-checkbox');
-  checkbox.addEventListener('sl-change', event => {
-    console.log(event.target.checked ? 'checked' : 'not checked');
-  });
-</script> -->
 
 {% render "page_selector", paginator: paginator, resource: resource %}
 

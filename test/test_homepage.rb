@@ -17,13 +17,13 @@ class TestBlog < Minitest::Test
   context 'blog page' do
     setup do
       page = site.generated_pages.find { |page| page.data.slug == 'posts' }
-      pp document_root page
+      document_root page
     end
 
     should 'show posts list' do
-      assert_select 'ul' do |elements|
+      assert_select 'ul.post-list' do |elements|
         elements.each do |element|
-          assert_select element, 'li', 3
+          assert_select element, 'li', 5
         end
       end
     end
