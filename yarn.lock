@@ -314,13 +314,13 @@ esbuild-openbsd-64@0.14.14:
   resolved "https://registry.yarnpkg.com/esbuild-openbsd-64/-/esbuild-openbsd-64-0.14.14.tgz#04710ef1d01cd9f15d54f50d20b5a3778f8306a2"
   integrity sha512-HdAnJ399pPff3SKbd8g+P4o5znseni5u5n5rJ6Z7ouqOdgbOwHe2ofZbMow17WMdNtz1IyOZk2Wo9Ve6/lZ4Rg==
 
-esbuild-plugin-copy@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/esbuild-plugin-copy/-/esbuild-plugin-copy-0.4.0.tgz#4dd0a6b45a5c7fa09328fbf7370ecd2c09ff4e2e"
-  integrity sha512-CwYa05IABoupWmUFKl+IzVLK+lkiQFw9x42NMfTxzF/g11YeLTriyDGD9vvuUUTz/3S9dnV1dZjvg2n2tJBCYw==
+esbuild-plugin-copy@^0.5.0:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/esbuild-plugin-copy/-/esbuild-plugin-copy-0.5.8.tgz#b1d26db851fd31b0c83c2388950a316760ff7251"
+  integrity sha512-urjgKqq2Wc2NCccdHDnsbDIHGwEygDFLxgLzdftr/5F5YQVdHWVeMDccYK3Gn+Vfg8Vwg1O5wZsZGLpdDZFsiw==
   dependencies:
     chalk "^4.1.2"
-    fs-extra "^10.0.0"
+    fs-extra "^10.0.1"
     globby "^11.0.3"
 
 esbuild-sunos-64@0.14.14:
@@ -402,10 +402,10 @@ fraction.js@^4.1.2:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.1.2.tgz#13e420a92422b6cf244dff8690ed89401029fbe8"
   integrity sha512-o2RiJQ6DZaR/5+Si0qJUIy637QMRudSi9kU/FFzx9EZazrIdnBgpU+3sEWCxAVhH2RtxW2Oz+T4p2o8uOPVcgA==
 
-fs-extra@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.0.tgz#9ff61b655dde53fb34a82df84bb214ce802e17c1"
-  integrity sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==
+fs-extra@^10.0.1:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
+  integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
