@@ -22,7 +22,7 @@ ruby '~> 3.0'
 
 # gem "bridgetown", "~> 0.21.4"
 gem 'bridgetown', '~> 1.1'
-gem 'puma', '~> 5.6.4'
+gem 'puma', '~> 5.6.5'
 
 # group :development do
 #   gem "debug", "~> 1.4"
