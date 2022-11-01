@@ -38,7 +38,7 @@ gem 'puma', '~> 5.6.4'
 #   gem "view_component", "< 2.48"
 # end
 
-gem 'bridgetown-quick-search', '~> 1.1', group: :bridgetown_plugins
+gem 'bridgetown-quick-search', '~> 2.0', group: :bridgetown_plugins
 gem 'bridgetown-seo-tag', '~> 5.0', group: :bridgetown_plugins
 
 group :test, optional: true do
