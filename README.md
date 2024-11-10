@@ -1,7 +1,7 @@
 # Bridgetown Website README
 
 Welcome to my personal portfolio site:
-- [chriswade.codes]([https://chriswade.codes/)](https://chris-wade-codes.onrender.com/)
+- [chriswade.codes](https://chris-wade-codes.onrender.com/about)
 
 ### Tooling 
 
